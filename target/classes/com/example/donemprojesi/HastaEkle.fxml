@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="260.0" prefWidth="271.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.donemprojesi.HastaEkleController">
+   <children>
+      <Text layoutX="112.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hasta Ekle" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label layoutX="32.0" layoutY="94.0" prefHeight="26.0" prefWidth="60.0" text="İsim">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="120.0" prefHeight="26.0" prefWidth="60.0" text="Soyisim">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="147.0" prefHeight="26.0" prefWidth="60.0" text="Kimlik">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="173.0" prefHeight="26.0" prefWidth="60.0" text="Yaş">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txIsimEkle" layoutX="92.0" layoutY="95.0" />
+      <TextField fx:id="txSoyadEkle" layoutX="92.0" layoutY="120.0" />
+      <TextField fx:id="txKimlikEkle" layoutX="92.0" layoutY="146.0" />
+      <TextField fx:id="txYasEkle" layoutX="92.0" layoutY="172.0" />
+      <Button layoutX="167.0" layoutY="213.0" mnemonicParsing="false" onAction="#hastaEkle" prefHeight="26.0" prefWidth="70.0" text="Ekle" />
+      <Button layoutX="32.0" layoutY="14.0" mnemonicParsing="false" onAction="#geriDon" text="Geri" />
+      <Label layoutX="32.0" layoutY="217.0" prefHeight="18.0" prefWidth="109.0" />
+      <Label fx:id="label" alignment="TOP_LEFT" layoutX="26.0" layoutY="217.0" prefHeight="32.0" prefWidth="110.0" />
+   </children>
+</AnchorPane>
